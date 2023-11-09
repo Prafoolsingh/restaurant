@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url("./images/restorant_food.avif");
+      background-repeat: no-repeat;
+      background-size: 100vw 100vh;
+      background-attachment: fixed;
+    }
+
+    .center-img {
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .center-img img {
+      height: 500px;
+      width: 70vw;
+      box-shadow: 0 0 20px white;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav {
+      height: 50px;
+      width: 70vw;
+      display: flex;
+      justify-content: start;
+      border-bottom: 3px solid purple;
+      box-shadow: 0 0 20px white;
+
+    }
+
+    button {
+      background-color: white;
+      color: black;
+      height: 100%;
+      width: 100%;
+      border-radius: 15px 15px 0px 0px;
+      font-size: large;
+      font-weight: 900;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      transition:border-radius 1s ease-out ;
+    }
+
+    .navbar nav a {
+  
+      width: 100%;
+    }
+
+    button:hover {
+      background-image: linear-gradient(to right,red,pink,yellow);
+
+      border-radius: 20px;
+      border: 5px solid white;
+    }
+
+
+  </style>
+
+  <body>
+    <div class="center-img">
+      <img src="./images/restorant.avif" alt="it is a restorant image" />
+    </div>
+
+    <div class="navbar">
+      <nav>
+        <a href="./menu.html" target="_blank"><button>Our Menu</button></a>
+        <a href="./contact.html" target="_blank"><button>contact us</button></a>
+        <a href="./about.html" target="_blank"><button>About us</button></a>
+      </nav>
+    </div>
+  </body>
+</html>

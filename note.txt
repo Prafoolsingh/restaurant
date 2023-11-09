@@ -1,0 +1,83 @@
+
+Creating a website for my Restaurant
+
+firstly i will create a landing page basically a home page(index.html) of my web site 
+
+1. index.html file description:
+
+added a image to body of html document.
+given some background css properties to body image so that it can visible in our view port.
+
+for styling the center image i have made .center-img class 
+
+i have created a div of class .navbar inside which we have a nav element which contain three buttons
+
+“Our Menu” button redirect us to the menu page, “Contact Us” button should redirect us to Contact Us, and the “About Us” button will redirect us to the About us page
+
+2. our menu page description:
+
+ i have have made three containers (container1, container2, and container3) for displaying different meal categories (Breakfast, Lunch, and Dinner) along with their respective items. Each item consists of an image, an alt text, and a caption
+
+Container 1 (container1) Styles:
+.heading1: Styles the heading with a light pink background, centered text, and specific font properties.
+.box1: Styles the container for breakfast items with a gradient background, flex layout, and border properties.
+
+
+Container 2 (container2) Styles:
+.heading2: Styles the heading with a mediam pink background, centered text, and specific font properties
+
+.box2: Styles the container for lunch items with a gradient background, flex layout, and border properties
+
+ Similar to box1, the items inside this container inherit styles from universal styles and are further customized
+
+Container 3 (container3) Styles:
+.heading3: Styles the heading with a dark pink background, centered text, and specific font properties
+
+.box3: Styles the container for dinner items with a gradient background, flex layout, and border properties
+
+ Similar to box1 and box2, the items inside this container inherit styles from universal styles and are further customized.
+
+
+
+3.  contact page description
+
+i ahve created creates a stylish and responsive "Contact Us" form.
+ Key features include:
+
+Basic form structure with fields for name, email, contact number, and a message
+
+Input validation for the contact number (Indian phone number pattern)
+
+html document with a centered layout, gradient background, and hover effects on the submit button
+
+Overall, it's a visually appealing and functional contact form suitable for 
+
+
+4.  about page description
+
+i have created a container of class .container
+
+our main container of class .container  contain five div(.box1,.box2,.box3,.box4,.box5)
+
+given .box class each div container inside our
+
+inside each .box container we have a heading element and a Paragraph element
+
+Box Styling:
+.box class styles all boxes.
+Adds a white border and padding to all boxes.
+
+inside each .box 
+Box1 Heading Styling:
+.box1 h1 styles the heading inside box1.
+Center-aligns text, adds orange background, and white border.
+Font family is set to Georgia, Times New Roman, or similar serif fonts.
+
+Paragraph Styling:
+General <p> elements have a top margin of 20px and a line height of 2.
+Font family is set to 'Segoe UI', Tahoma, Geneva, Verdana, or sans-serif as fallback.
+
+First Letter Styling:
+The first letter of <p> elements inside .box1 is enlarged (40px), colored (purple), and bolded (600 font weight).
+These styles provide a consistent and visually appealing layout for the HTML content.
+

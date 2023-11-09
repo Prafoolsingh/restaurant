@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* container 1 css */
+.container1 {
+  margin-top: 0px;
+}
+
+.heading1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  background-color: pink;
+  margin: 0 10px;
+}
+
+.box1 {
+  
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  overflow: hidden;
+  padding: 5px;
+  border: 3px solid darkslategrey;
+  margin: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(59, 20, 44),
+    orange,
+    pink,
+    skyblue,
+    blue
+  );
+}
+
+
+/* these properties will be applied to all three container */
+img {
+  width: 220px;
+  height: 170px;
+}
+figure {
+  text-align: center;
+}
+figcaption {
+  font-weight: 600;
+  cursor: pointer;
+  border: 3px solid black;
+  transition: all 1s ease-out;
+}
+
+figcaption:hover {
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  color: white;
+  border: 3px  solid white;
+}
+
+
+/* container 2 css */
+.container2 {
+  margin-top: 70px;
+}
+
+.heading2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  background-color: rgb(185, 105, 119);
+  margin: 10px;
+}
+
+.box2 {
+  background-image: linear-gradient(
+    to bottom right,
+    blue,
+    skyblue,
+    pink,
+    orange,
+    white
+  );
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  overflow: hidden;
+  padding: 5px;
+  border: 3px solid darkslategrey;
+  margin: 10px;
+}
+
+/* container 3 css */
+
+.container3 {
+  margin-top: 70px;
+}
+
+.heading3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  background-color: rgb(200, 68, 90);
+  margin: 10px;
+}
+
+.box3 {
+  background-image: linear-gradient(
+    to bottom right,
+red,blue,yellow,cyan
+  );
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  overflow: hidden;
+  padding: 5px;
+  border: 3px solid darkslategrey;
+  margin: 10px;
+}

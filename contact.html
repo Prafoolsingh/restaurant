@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image:linear-gradient(pink,rgba(103,242,209,0.6),white,rgba(255,0,0,0.3));
+        }
+
+        form{
+          
+            width: 610px;
+        }
+
+        input{
+            height:50px;
+            margin: 15px 0;
+            padding: 0 10px;
+            
+        }
+
+        
+
+        textarea{
+            margin:10px 0;
+            padding: 5px 10px;
+        }
+
+       textarea::placeholder{
+            font-size:large;
+
+        }
+
+        .submitbtn{
+            font-size:20px;
+            font-weight: 700;
+            background-color: rgba(20, 146, 112,0.6);
+            border: 5px solid white;
+            
+        }
+
+        .submitbtn:hover{
+            border-radius: 10px;
+            background-color: rgba(20, 146, 112,0.8);
+            box-shadow:15px 15px 40px black;
+            
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input type="text" size="1" placeholder="Enter name here" style="width: 100%;" required >  
+
+            <input type="email" placeholder="Enter email here" style="width: 100%;"required >
+
+            <input type="tel" pattern="[789][0-9]{9}" placeholder="Enter contact number here" style="width: 100%;">  
+
+            <textarea placeholder="Drop Message" cols="73" rows="10"></textarea> 
+
+            <input class="submitbtn" type="submit" value="Submit" style="width: 100%; cursor: pointer;">
+        </form>
+    </div>
+</body>
+</html>
